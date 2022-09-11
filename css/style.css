@@ -1,0 +1,439 @@
+/* -----------------------------------
+          common css start
+----------------------------------- */
+
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+img{
+    vertical-align: middle;
+}
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+ul,ol{
+    list-style: none;
+}
+.clr{
+    clear: both;
+}
+.heading{
+    display: inline-block;
+    position: relative;
+}
+.heading h2{
+    font-size: 46px;
+    font-weight: 800;
+    font-family: 'Open Sans', sans-serif;
+    color: #02918c;
+    text-transform: uppercase;
+}
+.heading img{
+    position: absolute;
+    left: 40px;
+    bottom: -32px;
+}
+/* -----------------------------------
+          common css end
+----------------------------------- */
+
+
+/* -----------------------------------
+          Navigation css start
+----------------------------------- */
+#main_nav{
+    height: 60px;
+    background: #02918c;
+}
+.nav_left{
+    float: left;
+    width: 40%;
+}
+.nav_right{
+    float: left;
+    width: 60%;
+}
+.nav_left h2{
+    font-size: 26.18px;
+    font-weight: 800;
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    line-height: 60px;
+}
+.nav_left h2 span{
+    color: #cfc91d;
+}
+.nav_right ul{
+    float: right;
+}
+.nav_right ul li{
+    float: left;
+}
+.nav_right ul li a{
+    font-size: 12px;
+    font-weight: 800;
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    line-height: 60px;
+    margin-left: 50px;
+}
+/* -----------------------------------
+          Navigation css end
+----------------------------------- */
+
+
+/* -----------------------------------
+          banner css start
+----------------------------------- */
+#banner{
+    background: url(../images/banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 210px;
+    padding-bottom: 210px;
+}
+.banner_text{
+    text-align: center;
+}
+.banner_text h4{
+    font-size: 30px;
+    font-weight: 800;
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+}
+.banner_text h1{
+    font-size: 68px;
+    font-weight: 800;
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 25px;
+}
+.banner_text p{
+    font-size: 18px;
+    font-weight: 800;
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+}
+.banner_text img{
+    margin-top: 50px;
+    margin-bottom: 52px;
+}
+.banner_text a{
+    font-size: 14px;
+    font-weight: 800;
+    color: #0b1016;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    background: #cfc91d;
+    padding: 19px 43px 17px;
+}
+/* -----------------------------------
+          banner css end
+----------------------------------- */
+
+
+/* -----------------------------------
+          About me css start
+----------------------------------- */
+#about_me{
+    padding-top: 98px;
+    padding-bottom: 100px;
+    text-align: center;
+}
+.about_text{
+    padding-left: 133px;
+    padding-right: 160px;
+    padding-top: 35px;
+    padding-bottom: 85px;
+}
+.about_text p{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 41px;
+    color: #7e8287;
+    
+}
+.about_text p span{
+    font-size: 23px;
+    font-weight: 800;
+}
+.about_part1{
+    padding-top: 36px;
+    padding-bottom: 54px;
+    padding-left: 62px;
+    padding-right: 66px;
+    float: left;
+    width: 288px;
+    border-right: 1px solid #d9dbdb;
+    margin-left: 18px;
+}
+.about_part2{
+    padding-top: 36px;
+    padding-bottom: 54px;
+    padding-left: 62px;
+    padding-right: 66px;
+    float: left;
+    width: 288px;
+    border-right: 1px solid #d9dbdb;
+}
+.about_part3{
+    padding-top: 36px;
+    padding-bottom: 54px;
+    padding-left: 62px;
+    padding-right: 66px;
+    float: left;
+    width: 288px;
+    border-right: 1px solid #d9dbdb;
+}
+.about_part4{
+    padding-top: 36px;
+    padding-bottom: 54px;
+    padding-left: 62px;
+    padding-right: 66px;
+    float: left;
+    width: 288px;
+}
+.about_part div h3{
+    font-size: 16px;
+    font-weight: 800;
+    font-family: 'Open Sans', sans-serif;
+    color: #7e8287;
+    padding-top: 29px;
+}
+.about_part div p{
+    font-size: 11px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    color: #7e8287;
+    line-height: 21px;
+    padding-top: 29px;
+}
+.about_part div i{
+    color: #02918c;
+    font-size: 33px;
+}
+
+
+/* -----------------------------------
+          About me css end
+----------------------------------- */
+
+
+/* -----------------------------------
+          Serive css start
+----------------------------------- */
+
+#service{
+    padding: 75px 0px;
+}
+.service_part{
+    width: 50%;
+}
+.service_head img{
+    left: 0;
+}
+.service_text{
+    width: 480px;
+    padding-top: 45px;
+}
+.service_text p{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    color: #7e8287;
+    line-height: 41px;
+}
+.services{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 60px;
+}
+.serv_title{
+    width: 210px;
+    margin-right: 65px;
+    margin-bottom: 60px;
+}
+.serv_title i{
+    font-size: 24px;
+    color: #02918c;
+}
+.serv_title h3{
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    color: #7e8287;
+    padding: 10px 0px;
+}
+.serv_title p{
+    font-size: 11px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    color: #7e8287;
+}
+
+/* -----------------------------------
+          Serive css end
+----------------------------------- */
+
+
+/* -----------------------------------
+          work css start
+----------------------------------- */
+
+#work{
+    padding: 100px 0px;
+    text-align: center;
+}
+.work_text{
+    padding-top: 40px;
+    text-align: center;
+}
+.work_text p{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    color: #7e8287;
+    line-height: 41px;
+}
+.work_text p span{
+    display: block;
+}
+.work_img{
+    padding-top: 40px;
+}
+.work_img ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+.work_img ul li{
+    width: 25%;
+    position: relative;
+}
+.work_img ul li .ovrly{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 266px;
+    height: 196px;
+    background: rgba(2, 145, 140, 0.85);
+    text-align: center;
+    padding: 30px;
+    transform: translate(-50% , -50%) scale(0);
+    transition: all linear .3s;
+}
+.work_img ul li .ovrly h3{
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    padding-top: 20px;
+}
+.work_img ul li .ovrly p{
+    font-size: 13px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    line-height: 21px;
+    padding-top: 10px;
+}
+.work_img ul li:hover .ovrly{
+    transform: translate(-50% , -50%) scale(1);
+}
+
+
+/* -----------------------------------
+          work css end
+----------------------------------- */
+
+
+
+/* -----------------------------------
+          footer css start
+----------------------------------- */
+
+.footer_top{
+    text-align: center;
+    padding-bottom: 100px;
+}
+.contact_head img{
+    left: 75px;
+}
+.footer_mid{
+    padding: 60px 0px;
+    background: #0b0b0b;
+    text-align: center;
+}
+.footer_form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.input_name input , .input_mail input{
+    width: 640px;
+    background: none;
+    appearance: textfield;
+    border: none;
+    border-bottom: 1px solid #898989;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    color: #7e8287;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.input_msg input , .input_msg2 input{
+    width: 920px;
+    background: none;
+    appearance: textfield;
+    border: none;
+    border-bottom: 1px solid #898989;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    color: #7e8287;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.input_btn button{
+    background: #cfc91d;
+    color: #000;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    padding: 10px 40px;
+    border: none;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.footer_btm{
+    background: #000;
+    text-align: center;
+}
+.footer_btm p{
+    color: #7e8287;
+    font-size: 12px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 75px;
+}
+
+/* -----------------------------------
+          footer css end
+----------------------------------- */
